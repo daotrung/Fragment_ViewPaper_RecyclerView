@@ -40,7 +40,7 @@ public class MyNewsAdapter  extends RecyclerView.Adapter<MyNewsAdapter.MyViewHol
 
     @Override
     public int getItemCount() {
-        return 0;
+        return newsModeList.size();
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder {

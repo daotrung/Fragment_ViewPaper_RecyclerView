@@ -17,18 +17,19 @@
         android:orientation="horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintGuide_percent="0.14"/>
+        app:layout_constraintGuide_percent="0.24"/>
+
     <TextView
-        android:layout_marginLeft="10sp"
         android:id="@+id/name_main"
-        android:layout_width="0dp"
+        android:layout_width="282dp"
         android:layout_height="0dp"
+        android:layout_marginLeft="10sp"
         android:text="doi bong se den voi chien thang moi hay khonng"
-        android:textSize="15sp"
         android:textColor="@color/black"
-        app:layout_constraintStart_toEndOf="@id/img"
-        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@id/guibottom"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="@id/guibottom"/>
+        app:layout_constraintStart_toEndOf="@id/img"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
